@@ -5,8 +5,8 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   /* configuração para resetar todos os tipos de fonte aplicados pelo navegadores em hypertext e strongs etc.. */
   font: inherit;
 
@@ -50,7 +50,7 @@ html {
 body {
   background-color: var(--bg-color);
 }
-h1, h3, h3 {
+h1, h2, h3 {
   line-height: 1.2;
   color: var(--text-color-primary);
   font-weight: var(--fw-bold);
@@ -62,7 +62,6 @@ h1 {
 }
 h2 {
   font-size: var(--fs-xl);
-  font-weight: var(--fw-bold);
 }
 h3 {
   font-size: var(--fs-lg);
