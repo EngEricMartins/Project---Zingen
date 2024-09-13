@@ -5,8 +5,8 @@
 }
 
 * {
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   /* configuração para resetar todos os tipos de fonte aplicados pelo navegadores em hypertext e strongs etc.. */
   font: inherit;
 
