@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Color Settings  */
+  --brand-gradient: background: linear-gradient (#FC4A1A 50% #F7B733 50%)
+}
