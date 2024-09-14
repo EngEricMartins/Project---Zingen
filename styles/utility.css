@@ -1,3 +1,31 @@
+/* configuração padding do eixo y  */
+.py-base {
+  padding-block: var(--py-base);
+}
+.py-lg {
+  padding-block: var(--py-lg);
+}
+.py-xl {
+  padding-block: var(--py-xl);
+}
+
+/* cofiguração padding eixo x */
+.px-lg {
+  padding-inline: var(--px-lg);
+}
+
+/* configuração visibilidade desktop  */
+.desktop-only {
+  display: none;
+}
+
+/* configuração de colunas mobile  */
+.even-columns {
+  display: grid;
+  gap: 1rem;
+}
+
+/* configurando container do eixo x  */
 .container {
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) *2);
@@ -6,5 +34,14 @@
 @media (width >= 80em) {
   .container {
     --max-width: 80rem;
+  }
+
+  .desktop-only {
+    display: initial;
+  }
+
+  .even-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
   }
 }
