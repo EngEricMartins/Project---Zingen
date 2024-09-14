@@ -25,6 +25,18 @@
   gap: 1rem;
 }
 
+/* configuração de displays  */
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
 /* configurando container do eixo x  */
 .container {
   --max-width: 375px;

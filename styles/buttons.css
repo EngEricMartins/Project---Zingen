@@ -1,0 +1,47 @@
+/* configuração do primeiro botão */
+.btn {
+  --btn-bg-color: var(--text-color-primary);
+  --btn-color: var(--bg-color);
+
+  border: none; /* na tag button do html por padrão eles tem bordas então vamos retirar elas  */
+
+  background-color: transparent; /* na tag button do html por padrão eles tem background branco então vamos retirar eles  */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content; /* largura conforme o conteudo ele ira se encaixar */
+
+  border-radius: 0.5rem;
+
+  font-family: var(--ff-sans);
+  font-size: var(--fs-base)/1.5rem;
+  font-weight: var(--fw-md);
+
+  cursor: pointer;
+
+  background-color: var(--btn-bg-color);
+  color: var(--btn-color);
+}
+.btn:hover {
+  background-image: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%
+  );
+  --btn-color: var(--surface-color);
+}
+/* *********************************** */
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: var(--fs-sm);
+}
+.btn-md {
+  padding: 0.75rem 1.5rem;
+  font-size: var(--fs-base);
+}
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
