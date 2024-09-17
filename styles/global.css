@@ -98,3 +98,16 @@ ul[role="list"] {
     --py-xl: 5rem;
   }
 }
+@media (width >= 120em) {
+  :root {
+    --fs-lg: 2.75rem;
+    --fs-xl: 3.50rem;
+    --fs-2xl: 5.5rem;
+
+    --px-lg: 2.5rem;
+
+    --py-base: 2rem;
+    --py-lg: 3.5rem;
+    --py-xl: 7rem;    
+  }
+}
