@@ -25,6 +25,7 @@
   /* color PRODUCT setings */
   --brand-color-primary: #F7B733;
   --brand-color-secondary: #FC4A1A;
+  --btn-bg2-color: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
 
 
   /* fonts settings */

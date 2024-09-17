@@ -25,15 +25,35 @@
   color: var(--btn-color);
 }
 .btn:hover {
-  background-image: linear-gradient(
-    90deg,
-    var(--brand-color-secondary) 0%,
-    var(--brand-color-primary) 100%
-  );
+  --btn-bg-color: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+  background: var(--btn-bg-color);
   --btn-color: var(--surface-color);
 }
 /* *********************************** */
 
+/* criando o segundo botão  */
+.btn[aria-label] {
+  position: relative;
+  /* criando borda degrade e fundo transparente  */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0.093rem;
+    border-radius: inherit;
+    background-color: var(--bg-color);
+  }
+
+  /* criando texto em degrade */
+  &::after {
+    content: attr(aria-label);
+    background: var(--btn-bg-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+  }
+}
+ 
 
 .btn-sm {
   padding: 0.5rem 1rem;
