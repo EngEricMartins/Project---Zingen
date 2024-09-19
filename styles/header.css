@@ -1,0 +1,21 @@
+header {
+  & a[aria-label="logo"] {
+    background-image: url(/assets/images/logo.svg);
+    width: 85px;
+    height: 32px;
+    display: block;
+
+    -webkit-background-clip: initial;
+    background-clip: initial;
+
+    &:hover {
+      background-image: url(../assets/images/logo-hover.svg);
+      transition: 0.5s;
+    }
+  }
+  
+
+  & a:first-child {
+    margin-right: auto;
+  }
+}

@@ -36,6 +36,13 @@
 .gap-1 {
   gap: 1rem;
 }
+.gap-1-5 {
+  gap: 1.5rem;
+}
+
+.items-center {
+  align-items: center;
+}
 
 /* configurando container do eixo x  */
 .container {
