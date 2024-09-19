@@ -23,6 +23,7 @@
 
   background-color: var(--btn-bg-color);
   color: var(--btn-color);
+  transition: 0.4s;
 }
 .btn:hover {
   --btn-bg-color: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
@@ -34,6 +35,7 @@
 /* criando o segundo botão  */
 .btn[aria-label] {
   position: relative;
+  transition: 0.4s;
   /* criando borda degrade e fundo transparente  */
   &::before {
     content: "";
@@ -51,6 +53,7 @@
     background-clip: text;
     color: transparent;
     position: relative;
+    transition: 0.4s;
   }
 }
  
