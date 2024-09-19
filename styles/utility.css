@@ -64,9 +64,3 @@
     grid-auto-columns: 1fr;
   }
 }
-/* Configuração de display do container em resolução acima de 1920px  */
-@media (width >= 120em) {
-  .container {
-    --max-width: 120rem;
-  }
-}
