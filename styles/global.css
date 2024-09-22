@@ -55,6 +55,8 @@ html {
   font-size: var(--fs-base);
   line-height: 1.6;
   color: var(--text-color-primary);
+
+  overflow-x: hidden; /* não ter transbordamento nas lateriais para evitar o rolemento do eixo x  */
 }
 body {
   background-color: var(--bg-color);
