@@ -15,6 +15,12 @@
   & .button {
     flex-wrap: wrap;
     margin-top: 2rem;
+
+    & > a {
+      & img {
+        width: 178px;
+      }
+    }
   }
   @media (width >=80em) {
     & .card {
@@ -26,6 +32,10 @@
 
       & > img {
         width: 29.125rem;
+      }
+
+      & .btn-playstore {
+        height: 60px;
       }
 
     }
