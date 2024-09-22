@@ -57,6 +57,8 @@ html {
   color: var(--text-color-primary);
 
   overflow-x: hidden; /* não ter transbordamento nas lateriais para evitar o rolemento do eixo x  */
+
+  scroll-behavior: smooth; /* melhora a rolagem ao clicar em um link interno dentro da pagina  */
 }
 body {
   background-color: var(--bg-color);
